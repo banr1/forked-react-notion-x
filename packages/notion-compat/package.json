@@ -1,6 +1,6 @@
 {
   "name": "@banr1/notion-compat",
-  "version": "7.0.1",
+  "version": "7.0.3",
   "type": "module",
   "description": "Compatibility layer between the official Notion API and unofficial private API.",
   "repository": {
@@ -25,13 +25,13 @@
     "test": "ava"
   },
   "dependencies": {
-    "@banr1/notion-types": "^7.0.0",
-    "@banr1/notion-utils": "^7.0.0",
+    "@banr1/notion-types": "^7.0.3",
+    "@banr1/notion-utils": "^7.0.3",
     "p-queue": "^7.2.0"
   },
   "devDependencies": {
-    "@notionhq/client": "^1.0.4",
-    "@banr1/notion-client": "^7.0.0"
+    "@banr1/notion-client": "^7.0.3",
+    "@notionhq/client": "^1.0.4"
   },
   "peerDependencies": {
     "@notionhq/client": "^1.0.4"
