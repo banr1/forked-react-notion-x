@@ -156,7 +156,7 @@ function getBlockContentStats(
         break
 
       case 'bookmark':
-        // treat bookmarks as quarter images since they aren't as content-ful as embedd images
+        // treat bookmarks as quarter images since they aren't as content-ful as embed images
         stats.numImages += 0.25
         break
 
