@@ -1,8 +1,8 @@
 import * as React from 'react'
 
+import { EquationBlock } from '@banr1/notion-types'
+import { getBlockTitle } from '@banr1/notion-utils'
 import Katex from '@matejmazur/react-katex'
-import { EquationBlock } from 'notion-types'
-import { getBlockTitle } from 'notion-utils'
 
 import { useNotionContext } from '../context'
 import { cs } from '../utils'

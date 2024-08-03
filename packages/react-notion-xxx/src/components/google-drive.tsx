@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { GoogleDriveBlock } from 'notion-types'
+import { GoogleDriveBlock } from '@banr1/notion-types'
 
 import { useNotionContext } from '../context'
 import { cs } from '../utils'

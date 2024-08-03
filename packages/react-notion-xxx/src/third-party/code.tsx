@@ -1,8 +1,8 @@
 import * as React from 'react'
 
+import { CodeBlock } from '@banr1/notion-types'
+import { getBlockTitle } from '@banr1/notion-utils'
 import copyToClipboard from 'clipboard-copy'
-import { CodeBlock } from 'notion-types'
-import { getBlockTitle } from 'notion-utils'
 import { highlightElement } from 'prismjs'
 import 'prismjs/components/prism-clike.min.js'
 import 'prismjs/components/prism-css-extras.min.js'

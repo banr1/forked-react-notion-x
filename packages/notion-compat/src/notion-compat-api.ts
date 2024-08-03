@@ -1,6 +1,6 @@
-import * as notion from 'notion-types'
+import * as notion from '@banr1/notion-types'
+import { parsePageId } from '@banr1/notion-utils'
 import type { Client } from '@notionhq/client'
-import { parsePageId } from 'notion-utils'
 import PQueue from 'p-queue'
 
 import * as types from './types'

@@ -1,5 +1,5 @@
 {
-  "name": "notion-utils",
+  "name": "@banr1/notion-utils",
   "version": "7.0.1",
   "type": "module",
   "description": "Useful utilities for working with Notion data. Isomorphic.",
@@ -34,7 +34,7 @@
     "is-url-superb": "^6.1.0",
     "mem": "^9.0.2",
     "normalize-url": "^7.0.3",
-    "notion-types": "^7.0.0",
+    "@banr1/notion-types": "^7.0.0",
     "p-queue": "^7.2.0"
   },
   "ava": {

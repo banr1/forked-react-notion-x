@@ -1,4 +1,4 @@
-import { ExtendedRecordMap, PageMap } from 'notion-types'
+import { ExtendedRecordMap, PageMap } from '@banr1/notion-types'
 import PQueue from 'p-queue'
 
 import { parsePageId } from './parse-page-id'

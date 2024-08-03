@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { AudioBlock } from 'notion-types'
+import { AudioBlock } from '@banr1/notion-types'
 
 import { useNotionContext } from '../context'
 import { cs } from '../utils'

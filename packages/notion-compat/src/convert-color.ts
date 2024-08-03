@@ -1,4 +1,4 @@
-import * as notion from 'notion-types'
+import * as notion from '@banr1/notion-types'
 
 export function convertColor(color: string): notion.Color {
   switch (color) {

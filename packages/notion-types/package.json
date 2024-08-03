@@ -1,5 +1,5 @@
 {
-  "name": "notion-types",
+  "name": "@banr1/notion-types",
   "version": "7.0.1",
   "type": "module",
   "description": "TypeScript types for core Notion data structures.",

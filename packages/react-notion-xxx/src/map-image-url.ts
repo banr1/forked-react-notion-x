@@ -1,4 +1,4 @@
-import { Block } from 'notion-types'
+import { Block } from '@banr1/notion-types'
 
 export const defaultMapImageUrl = (
   url: string,

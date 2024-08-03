@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import { normalizeUrl } from 'notion-utils'
+import { normalizeUrl } from '@banr1/notion-utils'
 import { ImageState, LazyImageFull } from 'react-lazy-images'
 
 import { useNotionContext } from '../context'
@@ -145,8 +145,8 @@ export const LazyImage: React.FC<{
       the ass. If we have a preview image, then this works fine since we know the
       dimensions ahead of time, but if we don't, then next/image won't display
       anything.
-      
-      Since next/image is the most common use case for using custom images, and this 
+
+      Since next/image is the most common use case for using custom images, and this
       is likely to trip people up, we're disabling non-preview custom images for now.
 
       If you have a use case that is affected by this, please open an issue on github.

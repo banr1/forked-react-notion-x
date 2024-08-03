@@ -1,4 +1,4 @@
-import * as types from 'notion-types'
+import * as types from '@banr1/notion-types'
 
 /**
  * Attempts to find a valid date from a given property.

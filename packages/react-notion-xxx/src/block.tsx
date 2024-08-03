@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import * as types from 'notion-types'
+import * as types from '@banr1/notion-types'
 import {
   getBlockCollectionId,
   getBlockIcon,
@@ -8,7 +8,7 @@ import {
   getPageTableOfContents,
   getTextContent,
   uuidToId
-} from 'notion-utils'
+} from '@banr1/notion-utils'
 
 import { AssetWrapper } from './components/asset-wrapper'
 import { Audio } from './components/audio'

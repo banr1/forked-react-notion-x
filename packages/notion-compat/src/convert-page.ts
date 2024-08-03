@@ -1,4 +1,4 @@
-import * as notion from 'notion-types'
+import * as notion from '@banr1/notion-types'
 
 import * as types from './types'
 import { convertBlock } from './convert-block'

@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import { BaseContentBlock, Block } from 'notion-types'
-import { parsePageId } from 'notion-utils'
+import { BaseContentBlock, Block } from '@banr1/notion-types'
+import { parsePageId } from '@banr1/notion-utils'
 
 import { useNotionContext } from '..'
 import { cs } from '../utils'

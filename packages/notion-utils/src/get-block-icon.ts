@@ -1,4 +1,4 @@
-import { Block, ExtendedRecordMap, PageBlock } from 'notion-types'
+import { Block, ExtendedRecordMap, PageBlock } from '@banr1/notion-types'
 
 import { getBlockCollectionId } from './get-block-collection-id'
 
