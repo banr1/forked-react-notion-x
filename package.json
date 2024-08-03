@@ -1,8 +1,8 @@
 {
-  "name": "customed-react-notion-x",
+  "name": "react-notion-y",
   "private": true,
-  "description": "Fast and accurate React renderer for Notion. TS batteries included.",
-  "repository": "https://github.com/banr1/customed-react-notion-x/tree/main.git",
+  "description": "Fast and accurate React renderer for Notion.",
+  "repository": "banr1/react-notion-y",
   "author": "banri",
   "license": "MIT",
   "version": "7.0.0",

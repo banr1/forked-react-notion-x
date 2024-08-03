@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="React Notion X" src="https://raw.githubusercontent.com/NotionX/react-notion-x/master/media/notion-ts.png" width="689">
+  <img alt="React Notion Y" src="https://raw.githubusercontent.com/NotionX/react-notion-x/master/media/notion-ts.png" width="689">
 </p>
 
 # notion-client
@@ -44,7 +44,7 @@ You can pass a database ID to the `getPage` method. The response is an object wh
 - `collection`
 - `collection_view`
 
-The value of the `block` property maps the id of each block object present in the database to its corresponding properties like type, parent id, created time, last edited by, and more. 
+The value of the `block` property maps the id of each block object present in the database to its corresponding properties like type, parent id, created time, last edited by, and more.
 
 ```
 {
@@ -155,7 +155,7 @@ Example of a block object of type `collection_view`:
 
 ## Docs
 
-See the [full docs](https://github.com/NotionX/react-notion-x).
+See the [full docs](https://github.com/banr1/react-notion-y).
 
 ## License
 
