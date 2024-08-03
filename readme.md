@@ -10,20 +10,22 @@
 
 ## Contents
 
-- [Advice](#advice)
-- [Features](#features)
-- [Usage](#usage)
-- [Styles](#styles)
-- [Optional Components](#optional-components)
-- [Private Pages](#private-pages)
-- [Next.js Examples](#nextjs-examples)
-- [Packages](#packages)
-- [Supported Blocks](#supported-blocks)
-- [Performance](#performance)
-- [Related](#related)
-- [Contributing](#contributing)
-- [License](#license)
-- [Sponsor](#sponsor)
+- [React Notion X](#react-notion-x)
+  - [Contents](#contents)
+  - [Advice](#advice)
+  - [Features](#features)
+  - [Usage](#usage)
+  - [Styles](#styles)
+  - [Optional Components](#optional-components)
+  - [Private Pages](#private-pages)
+  - [Next.js Examples](#nextjs-examples)
+  - [Packages](#packages)
+  - [Supported Blocks](#supported-blocks)
+  - [Performance](#performance)
+  - [Related](#related)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Sponsor](#sponsor)
 
 ## Advice
 
@@ -155,7 +157,7 @@ For each of these optional components, make sure you're also importing the relev
 
 ## Private Pages
 
-You may optionally pass an `authToken` and `activeUser` to the API if you want to access private Notion pages. Both can be retrieved from your web browser. Once you are viewing your workpace, open your Development Tools > Application > Cookie > and Copy the `token_v2` and `notion_user_id`. Respectively, activeUser: notion_user_id, authToken: token_v2.
+You may optionally pass an `authToken` and `activeUser` to the API if you want to access private Notion pages. Both can be retrieved from your web browser. Once you are viewing your workspace, open your Development Tools > Application > Cookie > and Copy the `token_v2` and `notion_user_id`. Respectively, activeUser: notion_user_id, authToken: token_v2.
 
 We recommend storing these as environment variables and passing them into the `NotionAPI` constructor as follows:
 
@@ -217,7 +219,7 @@ The majority of Notion blocks and collection views are fully supported.
 | Equation (block)         | ✅ Yes     | `equation`             | [katex](https://katex.org/) via [react-katex](https://github.com/MatejBransky/react-katex)                       |
 | Equation (inline)        | ✅ Yes     | `text`                 | [katex](https://katex.org/) via [react-katex](https://github.com/MatejBransky/react-katex)                       |
 | Todos (checkboxes)       | ✅ Yes     | `to_do`                |
-| Table Of Contents        | ✅ Yes     | `table_of_contents`    | See `notion-utils` `getPageTableOfContents` helper funtion                                                       |
+| Table Of Contents        | ✅ Yes     | `table_of_contents`    | See `notion-utils` `getPageTableOfContents` helper function                                                       |
 | Divider                  | ✅ Yes     | `divider`              | Horizontal line                                                                                                  |
 | Column                   | ✅ Yes     | `column`               |
 | Column List              | ✅ Yes     | `column_list`          |
@@ -288,7 +290,7 @@ export default ({ recordMap }) => (
 )
 ```
 
-This wraps these next.js components in a compatability layer so `NotionRenderer` can use them the same as their non-next.js equivalents `<img>` and `<a>`.
+This wraps these next.js components in a compatibility layer so `NotionRenderer` can use them the same as their non-next.js equivalents `<img>` and `<a>`.
 
 ## Related
 
