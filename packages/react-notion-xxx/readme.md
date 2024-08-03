@@ -6,14 +6,14 @@
 
 > Fast and accurate React renderer for Notion.
 
-[![NPM](https://img.shields.io/npm/v/react-notion-xxx.svg)](https://www.npmjs.com/package/react-notion-xxx) [![Build Status](https://github.com/NotionX/react-notion-xxx/actions/workflows/test.yml/badge.svg)](https://github.com/NotionX/react-notion-xxx/actions/workflows/test.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
+[![NPM](https://img.shields.io/npm/v/react-notion-xxx.svg)](https://www.npmjs.com/package/react-notion-xxx) [![Build Status](https://github.com/banr1/react-notion-xxx/actions/workflows/test.yml/badge.svg)](https://github.com/banr1/react-notion-xxx/actions/workflows/test.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
 
 ## Docs
 
-See the [full docs](https://github.com/NotionX/react-notion-xxx).
+See the [full docs](https://github.com/banr1/react-notion-xxx).
 
 ## License
 
-MIT © [Travis Fischer](https://transitivebullsh.it)
+MIT © banri
 
 Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>

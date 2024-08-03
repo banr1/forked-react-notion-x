@@ -3,7 +3,7 @@ import * as React from 'react'
 import isEqual from 'react-fast-compare'
 
 export const wrapNextImage = (NextImage: any): React.FC<any> => {
-  return React.memo(function ReactNotionXNextImage({
+  return React.memo(function ReactNotionXxxNextImage({
     src,
     alt,
 
@@ -38,7 +38,7 @@ export const wrapNextImage = (NextImage: any): React.FC<any> => {
 }
 
 export const wrapNextLink = (NextLink: any): React.FC<any> =>
-  function ReactNotionXNextLink({
+  function ReactNotionXxxNextLink({
     href,
     as,
     passHref,

@@ -8,7 +8,7 @@ Fast and accurate React renderer for Notion.
 This is a fork of [react-notion-x](https://github.com/NotionX/react-notion-x).
 React Notion 'XXX' is the next version of React Notion 'X'.
 
-[![NPM](https://img.shields.io/npm/v/react-notion-xxx.svg)](https://www.npmjs.com/package/react-notion-xxx) [![Build Status](https://github.com/NotionX/react-notion-xxx/actions/workflows/test.yml/badge.svg)](https://github.com/NotionX/react-notion-xxx/actions/workflows/test.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io) [![NPM](https://badgen.net/bundlephobia/minzip/react-notion-xxx)](https://bundlephobia.com/package/react-notion-xxx)
+[![NPM](https://img.shields.io/npm/v/react-notion-xxx.svg)](https://www.npmjs.com/package/react-notion-xxx) [![Build Status](https://github.com/banr1/react-notion-xxx/actions/workflows/test.yml/badge.svg)](https://github.com/banr1/react-notion-xxx/actions/workflows/test.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io) [![NPM](https://badgen.net/bundlephobia/minzip/react-notion-xxx)](https://bundlephobia.com/package/react-notion-xxx)
 
 ## Features
 
@@ -211,7 +211,7 @@ All known blocks and most known configuration settings can be found in our [test
 ## Performance
 
 <p align="center">
-  <img alt="Google Lighthouse Scores" src="https://raw.githubusercontent.com/NotionX/react-notion-x/master/media/react-notion-x-perf.png" width="600" />
+  <img alt="Google Lighthouse Scores" src="https://raw.githubusercontent.com/banr1/react-notion-xxx/main/media/react-notion-xxx-perf.png" width="600" />
   <br>
   <i>Google Lighthouse scores for an <a href="https://react-notion-x-demo.transitivebullsh.it/38fa73d49b8f40aab1f3f8c82332e518">example page</a> rendered by `react-notion-x` on Vercel.</i>
   <br>
@@ -250,7 +250,7 @@ This wraps these next.js components in a compatibility layer so `NotionRenderer`
 
 ## License
 
-MIT © [banri](https://banris-website.vercel.app/)
+MIT © banri
 
 This project extends MIT-licensed work by [Timo Lins](https://twitter.com/timolins), [Tobias Lins](https://twitter.com/linstobias), [Sam Wight](https://samw.dev), and other contributors.
 
