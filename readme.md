@@ -12,7 +12,7 @@ React Notion 'Y' is the next version of React Notion 'X'.
 
 ## Contents
 
-- [React Notion Y](#react-notion-y)
+- [React Notion Y](#react-notion-xxx)
   - [Contents](#contents)
   - [Features](#features)
   - [Usage](#usage)
@@ -52,7 +52,7 @@ Once you have the data for a Notion page, you can render it via React:
 
 ```tsx
 import * as React from 'react'
-import { NotionRenderer } from 'react-notion-y'
+import { NotionRenderer } from 'react-notion-xxx'
 
 export default ({ recordMap }) => (
   <NotionRenderer recordMap={recordMap} fullPage={true} darkMode={false} />
@@ -66,8 +66,8 @@ Note: for heavier blocks, you'll have to opt into using them via `NotionRenderer
 You'll need to import some CSS styles as well. If you're using Next.js, we recommend you place these imports at the top of `pages/_app.js`:
 
 ```ts
-// core styles shared by all of react-notion-y (required)
-import 'react-notion-y/src/styles.css'
+// core styles shared by all of react-notion-xxx (required)
+import 'react-notion-xxx/src/styles.css'
 
 // used for code syntax highlighting (optional)
 import 'prismjs/themes/prism-tomorrow.css'
@@ -78,16 +78,16 @@ import 'katex/dist/katex.min.css'
 
 ## Optional Components
 
-The default imports from `react-notion-y` strive to be as lightweight as possible. Most blocks will render just fine, but some larger blocks like PDFs and collection views (database views) are not included by default.
+The default imports from `react-notion-xxx` strive to be as lightweight as possible. Most blocks will render just fine, but some larger blocks like PDFs and collection views (database views) are not included by default.
 
-To use them, you'll need to import the ones you want from `react-notion-y/build/third-party/*`:
+To use them, you'll need to import the ones you want from `react-notion-xxx/build/third-party/*`:
 
 ```tsx
-import { Code } from 'react-notion-y/build/third-party/code'
-import { Collection } from 'react-notion-y/build/third-party/collection'
-import { Equation } from 'react-notion-y/build/third-party/equation'
-import { Modal } from 'react-notion-y/build/third-party/modal'
-import { Pdf } from 'react-notion-y/build/third-party/pdf'
+import { Code } from 'react-notion-xxx/build/third-party/code'
+import { Collection } from 'react-notion-xxx/build/third-party/collection'
+import { Equation } from 'react-notion-xxx/build/third-party/equation'
+import { Modal } from 'react-notion-xxx/build/third-party/modal'
+import { Pdf } from 'react-notion-xxx/build/third-party/pdf'
 ```
 
 Note that we strongly recommend lazy-loading these components unless you know you'll need them up front for your use case.
@@ -98,24 +98,24 @@ If you're using Next.js, you can use [next/dynamic](https://nextjs.org/docs/adva
 import dynamic from 'next/dynamic'
 
 const Code = dynamic(() =>
-  import('react-notion-y/build/third-party/code').then((m) => m.Code)
+  import('react-notion-xxx/build/third-party/code').then((m) => m.Code)
 )
 const Collection = dynamic(() =>
-  import('react-notion-y/build/third-party/collection').then(
+  import('react-notion-xxx/build/third-party/collection').then(
     (m) => m.Collection
   )
 )
 const Equation = dynamic(() =>
-  import('react-notion-y/build/third-party/equation').then((m) => m.Equation)
+  import('react-notion-xxx/build/third-party/equation').then((m) => m.Equation)
 )
 const Pdf = dynamic(
-  () => import('react-notion-y/build/third-party/pdf').then((m) => m.Pdf),
+  () => import('react-notion-xxx/build/third-party/pdf').then((m) => m.Pdf),
   {
     ssr: false
   }
 )
 const Modal = dynamic(
-  () => import('react-notion-y/build/third-party/modal').then((m) => m.Modal),
+  () => import('react-notion-xxx/build/third-party/modal').then((m) => m.Modal),
   {
     ssr: false
   }
@@ -164,7 +164,7 @@ Note that this is not the same as the API token provided by the official Notion 
 
 | Package                                     | NPM                                                                                                     | Environment   | Description                                    |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------------------------- |
-| [react-notion-y](./packages/react-notion-y) | [![NPM](https://img.shields.io/npm/v/react-notion-y.svg)](https://www.npmjs.com/package/react-notion-y) | Browser + SSR | Fast React renderer for Notion.                |
+| [react-notion-xxx](./packages/react-notion-xxx) | [![NPM](https://img.shields.io/npm/v/react-notion-xxx.svg)](https://www.npmjs.com/package/react-notion-xxx) | Browser + SSR | Fast React renderer for Notion.                |
 | [notion-client](./packages/notion-client)   | [![NPM](https://img.shields.io/npm/v/notion-client.svg)](https://www.npmjs.com/package/notion-client)   | Server-side\* | Robust TypeScript client for the Notion API.   |
 | [notion-types](./packages/notion-types)     | [![NPM](https://img.shields.io/npm/v/notion-types.svg)](https://www.npmjs.com/package/notion-types)     | Universal     | Core Notion TypeScript types.                  |
 | [notion-utils](./packages/notion-utils)     | [![NPM](https://img.shields.io/npm/v/notion-utils.svg)](https://www.npmjs.com/package/notion-utils)     | Universal     | Useful utilities for working with Notion data. |

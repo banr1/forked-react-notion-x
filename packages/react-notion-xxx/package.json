@@ -1,9 +1,9 @@
 {
-  "name": "react-notion-y",
+  "name": "react-notion-xxx",
   "version": "7.0.0",
   "type": "module",
   "description": "Fast and accurate React renderer for Notion.",
-  "repository": "banr1/react-notion-y",
+  "repository": "banr1/react-notion-xxx",
   "author": "banri",
   "license": "MIT",
   "main": "./build/index.js",

@@ -155,7 +155,7 @@ Example of a block object of type `collection_view`:
 
 ## Docs
 
-See the [full docs](https://github.com/banr1/react-notion-y).
+See the [full docs](https://github.com/banr1/react-notion-xxx).
 
 ## License
 

@@ -3,7 +3,7 @@
   "version": "7.0.0",
   "type": "module",
   "description": "Useful utilities for working with Notion data. Isomorphic.",
-  "repository": "banr1/react-notion-y",
+  "repository": "banr1/react-notion-xxx",
   "author": "banri",
   "license": "MIT",
   "main": "./build/index.js",

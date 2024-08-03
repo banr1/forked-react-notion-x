@@ -1,8 +1,11 @@
 {
-  "name": "react-notion-y",
+  "name": "react-notion-xxx",
   "private": true,
   "description": "Fast and accurate React renderer for Notion.",
-  "repository": "banr1/react-notion-y",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banr1/react-notion-xxx.git"
+  },
   "author": "banri",
   "license": "MIT",
   "version": "7.0.0",

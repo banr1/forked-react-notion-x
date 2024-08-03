@@ -3,7 +3,7 @@
   "version": "7.0.0",
   "type": "module",
   "description": "TypeScript types for core Notion data structures.",
-  "repository": "banr1/react-notion-y",
+  "repository": "banr1/react-notion-xxx",
   "author": "banri",
   "license": "MIT",
   "types": "./build/index.d.ts",

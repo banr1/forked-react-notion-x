@@ -15,7 +15,7 @@
       "path": "./packages/notion-client/tsconfig.json"
     },
     {
-      "path": "./packages/react-notion-y/tsconfig.json"
+      "path": "./packages/react-notion-xxx/tsconfig.json"
     }
   ]
 }
