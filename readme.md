@@ -1,29 +1,14 @@
 <p align="center">
-  <img alt="React Notion Y" src="https://raw.githubusercontent.com/NotionX/react-notion-x/master/media/notion-ts.png" width="689">
+  <img alt="React Notion XXX" src="https://raw.githubusercontent.com/NotionX/react-notion-x/master/media/notion-ts.png" width="689">
 </p>
 
-# React Notion Y
+# React Notion XXX
 Fast and accurate React renderer for Notion.
 
 This is a fork of [react-notion-x](https://github.com/NotionX/react-notion-x).
-React Notion 'Y' is the next version of React Notion 'X'.
+React Notion 'XXX' is the next version of React Notion 'X'.
 
-[![NPM](https://img.shields.io/npm/v/react-notion-x.svg)](https://www.npmjs.com/package/react-notion-x) [![Build Status](https://github.com/NotionX/react-notion-x/actions/workflows/test.yml/badge.svg)](https://github.com/NotionX/react-notion-x/actions/workflows/test.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io) [![NPM](https://badgen.net/bundlephobia/minzip/react-notion-x)](https://bundlephobia.com/package/react-notion-x)
-
-## Contents
-
-- [React Notion Y](#react-notion-xxx)
-  - [Contents](#contents)
-  - [Features](#features)
-  - [Usage](#usage)
-  - [Styles](#styles)
-  - [Optional Components](#optional-components)
-  - [Private Pages](#private-pages)
-  - [Packages](#packages)
-  - [Supported Blocks](#supported-blocks)
-  - [Performance](#performance)
-  - [License](#license)
-  - [Sponsor](#sponsor)
+[![NPM](https://img.shields.io/npm/v/react-notion-xxx.svg)](https://www.npmjs.com/package/react-notion-xxx) [![Build Status](https://github.com/NotionX/react-notion-xxx/actions/workflows/test.yml/badge.svg)](https://github.com/NotionX/react-notion-xxx/actions/workflows/test.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io) [![NPM](https://badgen.net/bundlephobia/minzip/react-notion-xxx)](https://bundlephobia.com/package/react-notion-xxx)
 
 ## Features
 
@@ -265,20 +250,10 @@ This wraps these next.js components in a compatibility layer so `NotionRenderer`
 
 ## License
 
-MIT © [Travis Fischer](https://transitivebullsh.it)
+MIT © [banri](https://banris-website.vercel.app/)
 
 This project extends MIT-licensed work by [Timo Lins](https://twitter.com/timolins), [Tobias Lins](https://twitter.com/linstobias), [Sam Wight](https://samw.dev), and other contributors.
 
 Big thanks to [Noah Bragg](https://github.com/normdoow) who runs [Potion.so](https://www.potion.so/) for helping to maintain `react-notion-x`.
 
 Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
-
-## Sponsor
-
-[Super.so](https://s.super.so/x) has been kind enough to sponsor this project. If you're looking for a hosted solution that takes a very similar approach to `react-notion-x` but handles all of the details for you, then definitely check them out.
-
-<p align="center">
-  <a href="https://s.super.so/x" title="Super.so">
-    <img alt="React Notion Y" src="https://raw.githubusercontent.com/NotionX/react-notion-x/master/media/super-so-banner.png">
-  </a>
-</p>
