@@ -1,6 +1,6 @@
 {
   "name": "@banr1/notion-client",
-  "version": "7.0.3",
+  "version": "7.0.4",
   "type": "module",
   "description": "Robust TypeScript client for the unofficial Notion API.",
   "repository": {
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@banr1/notion-types": "^7.0.3",
-    "@banr1/notion-utils": "^7.0.3",
+    "@banr1/notion-utils": "^7.0.4",
     "got": "^11.8.1",
     "p-map": "^5.3.0"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@banr1/notion-utils",
-  "version": "7.0.3",
+  "version": "7.0.4",
   "type": "module",
   "description": "Useful utilities for working with Notion data. Isomorphic.",
   "repository": {
