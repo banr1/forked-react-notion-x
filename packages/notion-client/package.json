@@ -3,7 +3,10 @@
   "version": "7.0.0",
   "type": "module",
   "description": "Robust TypeScript client for the unofficial Notion API.",
-  "repository": "banr1/react-notion-xxx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banr1/react-notion-xxx.git"
+  },
   "author": "banri",
   "license": "MIT",
   "main": "./build/index.js",

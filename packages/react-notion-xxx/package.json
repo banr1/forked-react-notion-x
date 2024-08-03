@@ -3,7 +3,10 @@
   "version": "7.0.0",
   "type": "module",
   "description": "Fast and accurate React renderer for Notion.",
-  "repository": "banr1/react-notion-xxx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banr1/react-notion-xxx.git"
+  },
   "author": "banri",
   "license": "MIT",
   "main": "./build/index.js",
