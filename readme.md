@@ -208,52 +208,8 @@ Please let us know if you find any issues or missing blocks.
 
 All known blocks and most known configuration settings can be found in our [test suite](https://www.notion.so/Notion-Test-Suite-067dd719a912471ea9a3ac10710e7fdf).
 
-## Performance
-
-<p align="center">
-  <img alt="Google Lighthouse Scores" src="https://raw.githubusercontent.com/banr1/react-notion-xxx/main/media/react-notion-xxx-perf.png" width="600" />
-  <br>
-  <i>Google Lighthouse scores for an <a href="https://react-notion-x-demo.transitivebullsh.it/38fa73d49b8f40aab1f3f8c82332e518">example page</a> rendered by `react-notion-x` on Vercel.</i>
-  <br>
-  <br>
-  <a href="https://bundlephobia.com/package/react-notion-x" title="Bundlephobia">
-    <img alt="Bundlephobia" src="https://badgen.net/bundlephobia/minzip/react-notion-x" />
-  </a>
-</p>
-
-Out of the box, `react-notion-x` is pretty fast and relatively lightweight, but there are a few key factors to be aware of.
-
-Bundlephobia reports a [~27kb gzip bundle size](https://bundlephobia.com/result?p=react-notion-x) for the main `react-notion-x` bundle. This doesn't include the optional `third-party` components which we recommend lazy loading via [next/dynamic](https://nextjs.org/docs/advanced-features/dynamic-import) only if a page needs them.
-
-Another major factor for perf comes from images hosted by Notion. They're generally unoptimized, improperly sized, and not cacheable because Notion has to deal with fine-grained access control that users can change at any time. You can override the default `mapImageUrl` function on `NotionRenderer` to add caching via a CDN like Cloudflare Workers, which is what Notion Y does for optimal page load speeds.
-
-`NotionRenderer` also supports lazy image loading with optional low quality image placeholder previews. You can see a demo of this in practice [on this page](https://react-notion-x-demo.transitivebullsh.it/3492bd6dbaf44fe7a5cac62c5d402f06) which is using [lqip-modern](https://github.com/transitive-bullshit/lqip-modern) to pre-generate placeholder images that are inspired by Medium.com's image loading.
-
-If you're using Next.js, we recommend passing `next/image` and `next/link` to the renderer as follows:
-
-```tsx
-import Image from 'next/image'
-import Link from 'next/link'
-
-export default ({ recordMap }) => (
-  <NotionRenderer
-    recordMap={recordMap}
-    components={{
-      nextImage: Image,
-      nextLink: Link
-    }}
-  />
-)
-```
-
-This wraps these next.js components in a compatibility layer so `NotionRenderer` can use them the same as their non-next.js equivalents `<img>` and `<a>`.
-
 ## License
 
 MIT © banri
 
-This project extends MIT-licensed work by [Timo Lins](https://twitter.com/timolins), [Tobias Lins](https://twitter.com/linstobias), [Sam Wight](https://samw.dev), and other contributors.
-
-Big thanks to [Noah Bragg](https://github.com/normdoow) who runs [Potion.so](https://www.potion.so/) for helping to maintain `react-notion-x`.
-
-Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
+This project extends MIT-licensed work by [Travis Fischer](https://x.com/transitive_bs), [Timo Lins](https://twitter.com/timolins), [Tobias Lins](https://twitter.com/linstobias), [Sam Wight](https://samw.dev), and other contributors.
